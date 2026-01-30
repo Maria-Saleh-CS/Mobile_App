@@ -1,0 +1,14 @@
+# Mobile App Privacy Leakage Detector - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependency for APK analysis
+androguard>=3.4.0
+
+# Optional: mitmproxy for capturing traffic (not required for analysis)
+# mitmproxy>=9.0.0
+
+# Optional: colored terminal output
+colorama>=0.4.6
+
+# Note: The tool works offline and doesn't require any paid APIs
+# All analysis is performed locally on your machine
